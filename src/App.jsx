@@ -186,7 +186,7 @@ export default function Home() {
             <a className="button button-primary" href="#work">
               Explore my work <ArrowDownRight size={17} aria-hidden="true" />
             </a>
-            <a className="button button-secondary" href="/jhans-timana-resume.pdf" download>
+            <a className="button button-secondary" href={`${import.meta.env.BASE_URL}Jhans-Timana-CV.pdf`} download>
               <Download size={17} aria-hidden="true" /> Download résumé
             </a>
           </div>
